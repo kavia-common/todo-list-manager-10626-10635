@@ -9,6 +9,17 @@ This project provides a minimal React template with a clean, modern UI and minim
 - **Fast**: Minimal dependencies for quick loading times
 - **Simple**: Easy to understand and modify
 
+## Environment Variables
+
+This project uses environment variables for configuration. To set up your environment:
+
+1. Copy `.env.example` to `.env`.
+2. Adjust values as needed (e.g., API URLs).
+3. Do not commit `.env` with secrets to version control.
+
+Common variable:
+- `REACT_APP_API_URL`: URL of your backend API.
+
 ## Getting Started
 
 In the project directory, you can run:
